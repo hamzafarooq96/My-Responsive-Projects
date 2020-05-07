@@ -1,0 +1,151 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(58, 58, 158, 0.8), rgba(58, 58, 158, 0.45)),
+    url(back.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.desc {
+  font-style: italic;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 50;
+}
+
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+select,
+button,
+textarea {
+  margin: 0;
+  padding-left: 5px;
+  font-size: inherit;
+  line-height: inherit;
+}
+.free{
+  padding-left: 15px;
+}
+
+form {
+  padding: 4rem 2rem;
+}
+
+.form-control {
+  align-items: center;
+  display: block;
+  width: 100%;
+  height: 2rem;
+  border: none;
+  outline: none;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+
+.select {
+  height: 40px;
+}
+
+.firstbox {
+  margin-bottom: 2rem;
+}
+
+.secbox {
+  margin-bottom: 2rem;
+}
+.merapera{
+
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.sevenbox{
+  margin-bottom: 3rem;
+}
+.eightbox{
+  margin-bottom: 3rem;
+}
+
+.input-radio{
+  min-width: 1.25rem;
+  min-height: 1.25rem;
+  margin-right: 0.625rem;
+
+}
+.chk{
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif; 
+}
+.input-check{
+  min-width: 1.25rem;
+  min-height: 1.25rem;
+  margin-right: 0.625rem;
+}
+.comments{
+  width: 100%;
+  height: 10rem;
+  /* padding-right: 20px; */
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif ;
+  font-weight: lighter;
+}
+.sub{
+  width: 100%;
+  background-color: rgb(55, 175, 101);
+  min-height: 3rem;
+  color: white;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif ;
+  border-radius: 3px;
+}
+/* label{
+  display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+
+} */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    
+
+  }
+}
+@media (min-width:480px){
+
+form{
+  padding: 2rem;
+}
+
+}
